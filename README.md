@@ -17,4 +17,11 @@ The waveform of a signal and its spectrum are two natural vechicles to understan
 
     Returns:
         array_like: Array of pulse values corresponding to input time values.
-#
+# Exponential Pluse
+## Parameters:
+        t (array_like): Array of time values.
+        tau (float): Time constant of the exponential decay.
+        A (float): Pulse amplitude.
+
+    Returns:
+        array_like: Array of pulse values corresponding to input time values.

@@ -10,3 +10,11 @@ The waveform of a signal and its spectrum are two natural vechicles to understan
 
     Returns:
         array_like: Array of pulse values corresponding to input time values.
+# Rectangular pulse using Fourier series representation.
+## Parameters:
+        t (array_like): Array of time values.
+        T (float): Pulse width (duration of the pulse).
+
+    Returns:
+        array_like: Array of pulse values corresponding to input time values.
+#
